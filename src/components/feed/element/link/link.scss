@@ -1,0 +1,16 @@
+@import '../../../../assets/scss/colors.scss';
+
+.link {
+    svg {
+        cursor: pointer;
+    }
+    box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.15);
+    padding: 0.375rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $primary;
+    .value {
+        padding: 0 0.5rem;
+    }
+}
